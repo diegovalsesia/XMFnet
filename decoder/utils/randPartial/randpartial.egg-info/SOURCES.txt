@@ -1,0 +1,5 @@
+setup.py
+randpartial.egg-info/PKG-INFO
+randpartial.egg-info/SOURCES.txt
+randpartial.egg-info/dependency_links.txt
+randpartial.egg-info/top_level.txt
