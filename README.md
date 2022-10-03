@@ -17,7 +17,8 @@ The file config.py contains general configurations for all the parameters.
 
 ## Dataset 
 
-The dataset is borrowed from ["View-guided point cloud completion"](https://github.com/Hydrogenion/ViPC)
+The dataset is borrowed from ["View-guided point cloud completion"](https://github.com/Hydrogenion/ViPC).
+
 First, please download the [ShapeNetViPC-Dataset](https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A) (143GB, code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``, you will get ``ShapeNetViPC-Dataset`` contains three floders: ``ShapeNetViPC-Partial``, ``ShapeNetViPC-GT`` and ``ShapeNetViPC-View``. 
 
 For each object, the dataset include partial point cloud (``ShapeNetViPC-Patial``), complete point cloud (``ShapeNetViPC-GT``) and corresponding images (``ShapeNetViPC-View``) from 24 different views. You can find the detail of 24 cameras view in ``/ShapeNetViPC-View/category/object_name/rendering/rendering_metadata.txt``.
