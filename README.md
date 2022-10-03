@@ -6,14 +6,24 @@ This repository contains the official implementation for "Cross-modal Learning f
 ![](figs/mmpc_arch.png)
 
 ## Requirements
+The code has been developed with the following dependecies:
 
-To install requirements:
+- Python 3.8 
+- CUDA version 10.2
+- G++ or GCC 7.5.0
+- Pytorch 1.10.2
+
+To setup the environment and install all the required packages run:
 
 ```setup
-pip install -r requirements.txt
+sh setup.sh
 ```
 
-The file config.py contains general configurations for all the parameters.
+It automatically creates the environment and install all the required packages.
+
+If something goes wrong please consider to follow the steps in setup manually.
+
+
 
 ## Dataset 
 
@@ -25,6 +35,7 @@ For each object, the dataset include partial point cloud (``ShapeNetViPC-Patial`
 
 
 ## Training
+The file config.py contains the configuration for all the training parameters.
 
 To train the models in the paper, run this command:
 
@@ -35,7 +46,7 @@ python train.py
 
 ## Evaluation
 
-To evaluate the models on a specific category:
+To evaluate the models (select the specific category in config.py):
 
 ```eval
 python eval.py 
