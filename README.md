@@ -3,6 +3,8 @@
 # XMFnet : Cross-Modal Learning for Image-Guided Point Cloud Shape Completion
 This repository contains the official implementation for "Cross-modal Learning for Image-Guided Point Cloud Shape Completion" (NeurIPS 2022) [paper](https://arxiv.org/pdf/2209.09552.pdf)
 
+![](figs/mmpc_arch.pdf)
+
 ## Requirements
 
 To install requirements:
