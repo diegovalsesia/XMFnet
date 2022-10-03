@@ -38,7 +38,7 @@ You can download pretrained models here:
 
 ## Results
 
-### [Image Classification on ShapeNet-ViPC](https://paperswithcode.com/sota/point-cloud-completion-on-shapenet-vipc)
+### [Point Cloud Completion on ShapeNet-ViPC](https://paperswithcode.com/sota/point-cloud-completion-on-shapenet-vipc)
 
 ![](figs/res_2.png)
 
