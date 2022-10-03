@@ -68,7 +68,9 @@ You can download pretrained models here:
 ![](figs/res_2.png)
 
 ## Acknowledgments
-Some of the code is borrowed from [AXform](https://github.com/kaiyizhang/AXform)
+Some of the code is borrowed from [AXform](https://github.com/kaiyizhang/AXform). 
+
+Visualizations have been created using [Mitsuba 2](https://www.mitsuba-renderer.org/).
 
 
 ## Citation
