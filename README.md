@@ -48,15 +48,15 @@ You can download pretrained models here:
 
 ## Results
 
-### [Point Cloud Completion on ShapeNet-ViPC](https://paperswithcode.com/sota/point-cloud-completion-on-shapenet-vipc)
+# [Point Cloud Completion on ShapeNet-ViPC](https://paperswithcode.com/sota/point-cloud-completion-on-shapenet-vipc)
 
 ![](figs/res_2.png)
 
-##Acknowledgments
+## Acknowledgments
 Some of the code is borrowed from [AXform](https://github.com/kaiyizhang/AXform)
 
 
-##Citation
+## Citation
 If you find our work useful in your research, please consider citing: 
 
 ```
@@ -72,7 +72,7 @@ If you find our work useful in your research, please consider citing:
 ```
 
 
-##License 
+## License 
 Our code is released under MIT License (see LICENSE file for details).
 
 
