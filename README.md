@@ -32,7 +32,7 @@ If something goes wrong please consider to follow the steps in setup manually.
 
 The dataset is borrowed from ["View-guided point cloud completion"](https://github.com/Hydrogenion/ViPC).
 
-First, please download the [ShapeNetViPC-Dataset](https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A) (143GB, code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``, you will get ``ShapeNetViPC-Dataset`` contains three floders: ``ShapeNetViPC-Partial``, ``ShapeNetViPC-GT`` and ``ShapeNetViPC-View``. 
+First, please download the ShapeNetViPC-Dataset ([Dropbox], [Baidu](https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A)) (143GB, code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``, you will get ``ShapeNetViPC-Dataset`` contains three floders: ``ShapeNetViPC-Partial``, ``ShapeNetViPC-GT`` and ``ShapeNetViPC-View``. 
 
 For each object, the dataset include partial point cloud (``ShapeNetViPC-Patial``), complete point cloud (``ShapeNetViPC-GT``) and corresponding images (``ShapeNetViPC-View``) from 24 different views. You can find the detail of 24 cameras view in ``/ShapeNetViPC-View/category/object_name/rendering/rendering_metadata.txt``.
 
@@ -78,14 +78,11 @@ Visualizations have been created using [Mitsuba 2](https://www.mitsuba-renderer.
 If you find our work useful in your research, please consider citing: 
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2209.09552,
-  doi = {10.48550/ARXIV.2209.09552},
-  url = {https://arxiv.org/abs/2209.09552},
-  author = {Aiello, Emanuele and Valsesia, Diego and Magli, Enrico},
-  title = {Cross-modal Learning for Image-Guided Point Cloud Shape Completion},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{aiello2022cross,
+ author = {Aiello, Emanuele and Valsesia, Diego and Magli, Enrico},
+ booktitle = {Advances in Neural Information Processing Systems},
+ title = {Cross-modal Learning for Image-Guided Point Cloud Shape Completion},
+ year = {2022}
 }
 ```
 
