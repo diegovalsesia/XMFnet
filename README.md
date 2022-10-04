@@ -61,6 +61,7 @@ python eval.py
 You can download pretrained models here:
 
 [Supervised checkpoints](https://www.dropbox.com/s/zskedwfq32i14aq/checkpoints_supervised.zip?dl=0)
+
 [Weakly supervised checkpoints](https://www.dropbox.com/s/ht9cg3zzz941i5t/checkpoints_weakly_supervised.zip?dl=0)
 
 
