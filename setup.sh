@@ -12,21 +12,21 @@ pip install setuptools==59.5.0
 
 #now compile all the 3rd party modules in /decoder/utils/
 
-cd /decoder/utils/furthestPointSampling
+cd decoder/utils/furthestPointSampling
 python3 setup.py install
 
 # https://github.com/stevenygd/PointFlow/tree/master/metrics --> not used
-cd /decoder/utils/metrics/pytorch_structural_losses
+cd decoder/utils/metrics/pytorch_structural_losses
 make
 
 # https://github.com/sshaoshuai/Pointnet2.PyTorch
-cd /decoder/utils/Pointnet2.PyTorch/pointnet2
+cd decoder/utils/Pointnet2.PyTorch/pointnet2
 python3 setup.py install
 
 # https://github.com/daerduoCarey/PyTorchEMD
-cd /decoder/utils/PyTorchEMD
+cd decoder/utils/PyTorchEMD
 python3 setup.py install
 
 # used to generate partialized partial inputs
-cd /decoder/utils/randPartial
+cd decoder/utils/randPartial
 python3 setup.py install
