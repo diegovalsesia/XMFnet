@@ -10,7 +10,7 @@ conda install pytorch3d -c pytorch3d
 pip install -r requirements.txt
 pip install setuptools==59.5.0
 
-#now compile all the 3rd party modules in supervised/decoder/utils/
+#now compile all the 3rd party modules in /decoder/utils/
 
 cd /decoder/utils/furthestPointSampling
 python3 setup.py install
