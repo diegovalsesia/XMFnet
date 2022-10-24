@@ -39,8 +39,9 @@ First, please download the ShapeNetViPC-Dataset ([Dropbox](https://www.dropbox.c
 
 For each object, the dataset include partial point cloud (``ShapeNetViPC-Patial``), complete point cloud (``ShapeNetViPC-GT``) and corresponding images (``ShapeNetViPC-View``) from 24 different views. You can find the detail of 24 cameras view in ``/ShapeNetViPC-View/category/object_name/rendering/rendering_metadata.txt``.
 
-In the "dataset" folder of this project are present the train and test list, that are equal to the original one, except for the formatting style.
+In the "dataset" folder of this project you can find the train and test list, that are the same as the original one, except for the formatting style.
 
+Further partialized inputs used for the weakly supervised setting are also available for download ([Dropbox](https://www.dropbox.com/s/5njn6ptkt42sqr9/ShapeNetViPC-PartPart.tar.gz?dl=0))
 
 ## Training
 The file config.py contains the configuration for all the training parameters.
