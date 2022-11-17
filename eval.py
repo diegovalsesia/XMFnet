@@ -19,7 +19,7 @@ opt = params()
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-ViPCDataset_test = ViPCDataLoader('test_list.txt', data_path=opt.dataroot, status= "test", category = "car")
+ViPCDataset_test = ViPCDataLoader('test_list2.txt', data_path=opt.dataroot, status= "test", category = "car")
 test_loader = DataLoader(ViPCDataset_test,
                             batch_size=128,
                             num_workers=opt.nThreads,
